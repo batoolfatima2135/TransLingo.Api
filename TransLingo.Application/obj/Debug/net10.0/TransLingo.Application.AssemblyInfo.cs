@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TransLingo.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fd0569964c9451c7996ce6bdec985eb070c741f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TransLingo.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TransLingo.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
