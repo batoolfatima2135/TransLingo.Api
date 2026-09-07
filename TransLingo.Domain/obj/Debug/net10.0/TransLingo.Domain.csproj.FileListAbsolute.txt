@@ -1,0 +1,11 @@
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Domain\bin\Debug\net10.0\TransLingo.Domain.deps.json
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Domain\bin\Debug\net10.0\TransLingo.Domain.dll
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Domain\bin\Debug\net10.0\TransLingo.Domain.pdb
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Domain\obj\Debug\net10.0\TransLingo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Domain\obj\Debug\net10.0\TransLingo.Domain.AssemblyInfoInputs.cache
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Domain\obj\Debug\net10.0\TransLingo.Domain.AssemblyInfo.cs
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Domain\obj\Debug\net10.0\TransLingo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Domain\obj\Debug\net10.0\TransLingo.Domain.dll
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Domain\obj\Debug\net10.0\refint\TransLingo.Domain.dll
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Domain\obj\Debug\net10.0\TransLingo.Domain.pdb
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Domain\obj\Debug\net10.0\ref\TransLingo.Domain.dll

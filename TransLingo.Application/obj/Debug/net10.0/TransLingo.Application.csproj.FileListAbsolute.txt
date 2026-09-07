@@ -1,0 +1,15 @@
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\bin\Debug\net10.0\TransLingo.Application.deps.json
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\bin\Debug\net10.0\TransLingo.Application.dll
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\bin\Debug\net10.0\TransLingo.Application.pdb
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\bin\Debug\net10.0\TransLingo.Domain.dll
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\bin\Debug\net10.0\TransLingo.Domain.pdb
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\obj\Debug\net10.0\TransLingo.Application.csproj.AssemblyReference.cache
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\obj\Debug\net10.0\TransLingo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\obj\Debug\net10.0\TransLingo.Application.AssemblyInfoInputs.cache
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\obj\Debug\net10.0\TransLingo.Application.AssemblyInfo.cs
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\obj\Debug\net10.0\TransLingo.Application.csproj.CoreCompileInputs.cache
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\obj\Debug\net10.0\TransLin.57163C1E.Up2Date
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\obj\Debug\net10.0\TransLingo.Application.dll
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\obj\Debug\net10.0\refint\TransLingo.Application.dll
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\obj\Debug\net10.0\TransLingo.Application.pdb
+C:\Users\Batool Fatima\Desktop\TransLingo\TransLingo.Application\obj\Debug\net10.0\ref\TransLingo.Application.dll

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TransLingo.Api/TransLingo.Api.csproj" />
+  <Project Path="TransLingo.Application/TransLingo.Application.csproj" />
+  <Project Path="TransLingo.Domain/TransLingo.Domain.csproj" />
+  <Project Path="TransLingo.Infrastructure/TransLingo.Infrastructure.csproj" />
+</Solution>
