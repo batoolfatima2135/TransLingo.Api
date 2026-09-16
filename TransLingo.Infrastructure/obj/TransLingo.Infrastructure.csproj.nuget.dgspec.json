@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Infrastructure\\TransLingo.Infrastructure.csproj": {}
+    "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Infrastructure\\TransLingo.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Application\\TransLingo.Application.csproj": {
+    "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Application\\TransLingo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Application\\TransLingo.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Application\\TransLingo.Application.csproj",
         "projectName": "TransLingo.Application",
-        "projectPath": "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Application\\TransLingo.Application.csproj",
+        "projectPath": "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Application\\TransLingo.Application.csproj",
         "packagesPath": "C:\\Users\\Batool Fatima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Application\\obj\\",
+        "outputPath": "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batool Fatima\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,8 +27,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Domain\\TransLingo.Domain.csproj": {
-                "projectPath": "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Domain\\TransLingo.Domain.csproj"
+              "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Domain\\TransLingo.Domain.csproj": {
+                "projectPath": "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Domain\\TransLingo.Domain.csproj"
               }
             }
           }
@@ -343,14 +343,14 @@
         }
       }
     },
-    "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Domain\\TransLingo.Domain.csproj": {
+    "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Domain\\TransLingo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Domain\\TransLingo.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Domain\\TransLingo.Domain.csproj",
         "projectName": "TransLingo.Domain",
-        "projectPath": "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Domain\\TransLingo.Domain.csproj",
+        "projectPath": "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Domain\\TransLingo.Domain.csproj",
         "packagesPath": "C:\\Users\\Batool Fatima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batool Fatima\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -678,14 +678,14 @@
         }
       }
     },
-    "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Infrastructure\\TransLingo.Infrastructure.csproj": {
+    "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Infrastructure\\TransLingo.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Infrastructure\\TransLingo.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Infrastructure\\TransLingo.Infrastructure.csproj",
         "projectName": "TransLingo.Infrastructure",
-        "projectPath": "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Infrastructure\\TransLingo.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Infrastructure\\TransLingo.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Batool Fatima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batool Fatima\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -701,8 +701,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Application\\TransLingo.Application.csproj": {
-                "projectPath": "C:\\Users\\Batool Fatima\\Desktop\\TransLingo.Backend\\TransLingo.Application\\TransLingo.Application.csproj"
+              "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Application\\TransLingo.Application.csproj": {
+                "projectPath": "C:\\Users\\Batool Fatima\\Desktop\\Translingo\\TransLingo.Backend\\TransLingo.Application\\TransLingo.Application.csproj"
               }
             }
           }
@@ -723,6 +723,20 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.76.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
