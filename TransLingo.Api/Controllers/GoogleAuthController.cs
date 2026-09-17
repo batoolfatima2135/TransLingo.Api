@@ -1,5 +1,6 @@
 using Google.Apis.Auth;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TransLingo.Api.Models;
@@ -27,6 +28,8 @@ public class GoogleAuthController : ControllerBase
     [HttpPost("google")]
     public async Task<IActionResult> GoogleLogin(
         [FromBody] GoogleLoginRequest request)
+
+
     {
         try
         {
@@ -59,7 +62,9 @@ public class GoogleAuthController : ControllerBase
                     UserName = payload.Email,
                     Email = payload.Email,
                     EmailConfirmed = true,
-                    ProfilePictureUrl = payload.Picture
+                    ProfilePictureUrl = payload.Picture,
+                    FirstName = payload.GivenName,
+                    LastName = payload.FamilyName
                 };
 
                 var result = await _userManager.CreateAsync(user);
@@ -73,6 +78,8 @@ public class GoogleAuthController : ControllerBase
             {
                 // Update profile picture if necessary
                 user.ProfilePictureUrl = payload.Picture;
+                user.FirstName = payload.GivenName;
+                user.LastName = payload.FamilyName;
 
                 var result = await _userManager.UpdateAsync(user);
 
@@ -105,6 +112,25 @@ public class GoogleAuthController : ControllerBase
             });
         }
     }
-}
 
-public record GoogleLoginRequest(string IdToken);
+    [Authorize]
+    [HttpGet("me")]
+    public async Task<IActionResult> GetCurrentUser()
+    {
+    var user = await _userManager.GetUserAsync(User);
+
+    if (user == null)
+    {
+        return Unauthorized();
+    }
+
+    return Ok(new
+    {
+        userId = user.Id,
+        email = user.Email,
+        profilePictureUrl = user.ProfilePictureUrl,
+        firstName = user.FirstName,
+        lastName = user.LastName
+    });
+    }
+}
