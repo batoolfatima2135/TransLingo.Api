@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Identity;
+using TransLingo.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
 using TransLingo.Api.Data;
@@ -47,7 +47,7 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 builder.Services.AddControllers();
-
+builder.Services.AddInfrastructure();
 
 var app = builder.Build();
 app.UseSwagger();
