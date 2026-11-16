@@ -2,6 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
 using TransLingo.Api.Data;
 using TransLingo.Api.Models;
+using TransLingo.Api.Services;
+using TransLingo.Api.Services.Google;
+using TransLingo.Api.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,8 +28,11 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddIdentityApiEndpoints<ApplicationUser>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
-
-
+builder.Services.AddScoped<
+    IGoogleAuthService,
+    GoogleAuthService>();
+builder.Services.AddScoped<IGoogleTokenValidator, GoogleTokenValidator>();
+builder.Services.AddScoped<IGoogleUserService, GoogleUserService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -44,6 +50,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         [new OpenApiSecuritySchemeReference("Bearer", document)] = []
     });
+    options.CustomSchemaIds(type => type.FullName);
 });
 builder.Services.AddControllers();
 
