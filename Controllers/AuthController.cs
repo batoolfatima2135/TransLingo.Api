@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TransLingo.Api.Models;
 using TransLingo.Api.DTOs.Auth;
+using TransLingo.Api.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 
 namespace TransLingo.Api.Controllers;
@@ -11,37 +12,20 @@ namespace TransLingo.Api.Controllers;
 [Route("api/auth")]
 public class AuthController : ControllerBase
 {
-    private readonly UserManager<ApplicationUser> _userManager;
+    private readonly IAuthService _authService;
 
-    public AuthController(UserManager<ApplicationUser> userManager)
+    public AuthController( IAuthService authService)
     {
-        _userManager = userManager;
+        _authService = authService;
     }
 
     [HttpPost("register")]
     public async Task<IActionResult> RegisterUser(
         [FromBody] RegisterRequest request)
     {
-        var existingUser = await _userManager.FindByEmailAsync(request.Email);
+        
 
-        if (existingUser != null)
-        {
-            return BadRequest(new
-            {
-                message = "An account with this email already exists."
-            });
-        }
-
-        var user = new ApplicationUser
-        {
-            UserName = request.Email,
-            Email = request.Email,
-            FirstName = request.FirstName,
-            LastName = request.LastName,
-            PhoneNumber = request.PhoneNumber
-        };
-
-        var result = await _userManager.CreateAsync(user, request.Password);
+        var result = await _authService.RegisterAsync(request);
 
         if (!result.Succeeded)
         {
@@ -61,20 +45,13 @@ public class AuthController : ControllerBase
     [HttpGet("me")]
     public async Task<IActionResult> GetCurrentUser()
     {
-    var user = await _userManager.GetUserAsync(User);
+    var user = await _authService.GetCurrentUserAsync(User);
 
     if (user == null)
     {
         return Unauthorized();
     }
 
-    return Ok(new
-    {
-        userId = user.Id,
-        email = user.Email,
-        profilePictureUrl = user.ProfilePictureUrl,
-        firstName = user.FirstName,
-        lastName = user.LastName
-    });
+    return Ok(user);
     }
 }
